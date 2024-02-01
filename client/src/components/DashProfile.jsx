@@ -18,7 +18,7 @@ const DashProfile = () => {
   const [imageFileUploadProgress, setImageFileUploadProgress] = useState(null);
   const [imageFileUploadError, setImageFileUploadError] = useState(null);
   const filePickerRef = useRef();
-  console.log(imageFileUploadProgress, imageFileUploadError);
+  // console.log(imageFileUploadProgress, imageFileUploadError);
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];
