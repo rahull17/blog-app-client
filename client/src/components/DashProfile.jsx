@@ -216,6 +216,7 @@ const DashProfile = () => {
           id="username"
           defaultValue={currentUser.username}
           onChange={handleChange}
+          autoComplete="username"
         />
         <TextInput
           type="email"
@@ -223,6 +224,7 @@ const DashProfile = () => {
           id="email"
           defaultValue={currentUser.email}
           onChange={handleChange}
+          autoComplete="email"
         />
         <TextInput
           type="password"
